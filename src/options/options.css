@@ -1,0 +1,163 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  font-size: 32px;
+  margin-right: 12px;
+  color: #4285f4;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #202124;
+}
+
+.section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #202124;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5f6368;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #202124;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #4285f4;
+  box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.1);
+}
+
+.form-select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #202124;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #4285f4;
+  box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.1);
+}
+
+.form-description {
+  font-size: 12px;
+  color: #5f6368;
+  margin-top: 4px;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #202124;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.save-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.save-button:hover {
+  background-color: #3367d6;
+}
+
+.alert {
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.alert-success {
+  background-color: #e6f4ea;
+  color: #137333;
+}
+
+.alert-error {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.footer {
+  font-size: 12px;
+  color: #5f6368;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.disclaimer {
+  font-style: italic;
+  color: #8d8d8d;
+  margin-top: 5px;
+}
